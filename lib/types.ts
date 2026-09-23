@@ -23,6 +23,10 @@ export type FoodItem = {
   category: string;
   rating: number;
   reviewCount: number;
+  urgencyText?: string;
+  unitLabel?: string;
+  packagingTag?: string;
+  urgencyTagline?: string;
 };
 
 export type CartItem = {
@@ -77,7 +81,9 @@ export type Category =
   | "Semua"
   | "Roti & Kue"
   | "Nasi & Lauk"
+  | "Camilan"
   | "Minuman"
+  | "Buah & Sayur"
   | "Dessert"
   | "Ayam & Bebek"
   | "Seafood"

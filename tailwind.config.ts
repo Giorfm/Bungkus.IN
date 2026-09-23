@@ -14,6 +14,14 @@ module.exports = {
     },
     extend: {
       colors: {
+        brand: {
+          DEFAULT: "#2A6B5C",
+          dark: "#1D4B40",
+          soft: "#E6FFF8",
+          tint: "#F3FFFC",
+        },
+        star: "#F9BD22",
+        canvas: "#F8F9FF",
         primary: {
           DEFAULT: "#16A34A",
           dark: "#0F7A38",
@@ -24,12 +32,14 @@ module.exports = {
           DEFAULT: "#FF7A1A",
           foreground: "#FFFFFF",
         },
-        bg: "#F6F7F9",
+        bg: "#F8F9FF",
         surface: "#FFFFFF",
         border: "#ECEDEF",
         text: {
-          DEFAULT: "#1A1D1F",
-          muted: "#6F7377",
+          DEFAULT: "#121C2A",
+          muted: "#584237",
+          subtle: "#8C7164",
+          dark: "#123F36",
         },
         danger: "#E11D48",
         warning: {

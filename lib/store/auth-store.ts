@@ -25,8 +25,8 @@ const MOCK_USER: User = {
 export const useAuthStore = create<AuthState>()(
   persist(
     (set) => ({
-      user: null,
-      isAuthenticated: false,
+      user: MOCK_USER,
+      isAuthenticated: true,
 
       signIn: async (email: string, _password: string) => {
         // Mock auth — accept any credentials
